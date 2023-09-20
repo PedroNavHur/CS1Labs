@@ -115,7 +115,8 @@ void part2()
   This Program asks the user for their year in school and their GPA and prints wheter they can graduate soon or need more schooling.
 
   Exercise 1: Rewrite gpa >= 2.0 in the first if statement using the NOT operator.
-              (Hint: you may need to add parentheses, the not operator is (!))
+              Hint: you may need to add parentheses, the not operator is (!)
+              Hint: !(a < b) is the same as (a >= b)
 
   Exercise 2: Could you replace year !='4' in the else if statement with year < 4 or year <= 3? Why or why not?
               Write your answer here:
