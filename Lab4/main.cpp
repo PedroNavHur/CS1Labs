@@ -344,14 +344,14 @@ void part5()
 
 
 
-  
+
 }
 
 // Driver function for lab 4 - no need to do anything below this
 int main()
 {
   int choice;
-  cout << "Lab 4 - Press (1-4) to run the desired exercise:" << endl;
+  cout << "Lab 4 - Press (1-5) to run the desired exercise:" << endl;
   cin >> choice;
 
   switch (choice)
