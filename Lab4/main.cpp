@@ -1,5 +1,9 @@
 
 #include <iostream>
+#include <string>
+#include <iomanip>
+#include <cmath>
+
 using namespace std;
 
 /* Lab 4.1 Exercises 1-4
