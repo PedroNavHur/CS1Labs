@@ -238,7 +238,7 @@ void part4()
 /* Lab 4.5 Write a Program from scratch
   Option 1:
     Write a program that prompts the user for their quarterly water bill for the last four quarters.
-    The program should find and output their average monthly water bill.
+    The program should find and output their average quarterly water bill.
     If the average bill exceeds $75, the output should include a message indicating that too much water is being used.
     If the average bill is at least $25 but no more than $75, the output should indicate that a typical amount of water is being used.
     Finally, if the average bill is less than $25, the output should contain a message praising the user for conserving water.
