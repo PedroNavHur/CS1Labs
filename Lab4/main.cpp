@@ -184,9 +184,7 @@ void part3()
               Write your answer here:
 
   Exercise 2: Add another switch statement to print "You Passed" for a grade of D or better.
-
-  Exercise 3: Replace your switch statements with if/else statements.
-
+              Hint: If you remove the breaks in the first case statement, you can use the same code for it and the following case statements.
   Example final runs:
   --------------------------------
     What grade did you earn in Programming I ?
