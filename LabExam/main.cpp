@@ -44,7 +44,7 @@ void problem3()
 
   // your code here
 
-  for (int i = 1; i <= numBooks; i++)
+  //for (int i = 1; i <= numBooks; i++)
   {
     float currentBookPrice;
     // your code here
