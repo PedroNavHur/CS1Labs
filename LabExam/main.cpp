@@ -11,7 +11,7 @@ using namespace std;
 
 // remember you only have 2 hours to complete this exam
 
-/* Coffe Shop - worth 25 points - stimated 20 mins */
+/* Coffe Shop - worth 25 points - estimated 20 mins */
 void problem1()
 {
 
@@ -24,7 +24,7 @@ void problem1()
   // Your code Here
 }
 
-/* Movie Tickets Price - worth 25 points - stimated 20 mins */
+/* Movie Tickets Price - worth 25 points - estimated 20 mins */
 void problem2()
 {
   int childrenTickets;
@@ -36,7 +36,7 @@ void problem2()
   // Your code here
 }
 
-/* Bookstore Purchases - worth 25 points - stimated 20 mins */
+/* Bookstore Purchases - worth 25 points - estimated 20 mins */
 void problem3()
 {
   int numBooks;
@@ -53,7 +53,7 @@ void problem3()
   // Your code here
 }
 
-/* Electricity Consumption - worth 50 points - stimated 40 mins */
+/* Electricity Consumption - worth 50 points - estimated 40 mins */
 void problem4()
 {
   double totalConsumption;
@@ -68,7 +68,7 @@ void problem4()
   // Your code here
 }
 
-/* Parking Fee - worth 50 points - stimated 40 mins */
+/* Parking Fee - worth 50 points - estimated 40 mins */
 void problem5()
 {
   double dailyParkingFee;
