@@ -11,7 +11,7 @@ using namespace std;
 
 // remember you only have 2 hours to complete this exam
 
-/* Coffe Shop - worth 25 points - estimated 20 mins */
+/* Coffe Shop - worth 25 points - estimated 30 mins */
 void problem1()
 {
 
@@ -20,11 +20,12 @@ void problem1()
 
   float price;
   float bill;
+  string drinkName;
 
   // Your code Here
 }
 
-/* Movie Tickets Price - worth 25 points - estimated 20 mins */
+/* Movie Tickets Price - worth 25 points - estimated 15 mins */
 void problem2()
 {
   int childrenTickets;
