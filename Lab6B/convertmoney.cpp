@@ -25,7 +25,6 @@ int main() {
   cin >> dollars;
 
   // Fill in the code to call convertMulti with parameters dollars, euros and pesos
-  
   // Fill in the code to output the value of dollars, euros and pesos
 
   cout << "Please input the amount of American Dollars you want converted\n";
@@ -33,7 +32,6 @@ int main() {
   cin >> dollars;
 
   // Fill in the code to call convertMulti with parameters dollars, euros, pesos and yen
-
   // Fill in the code to output the value of dollars, euros, pesos and yen
 
   cout << "Please input the amount of American Dollars you want converted\n";
@@ -42,7 +40,6 @@ int main() {
 
   // Fill in the code to call convertToYen
   // Fill in the code to output the value of dollars and yen
-
 
   cout << "Please input the amount of American Dollars you want converted\n";
   cout << "to euros" << endl;
@@ -57,14 +54,20 @@ int main() {
 
   // Fill in the code to call convertToPesos
   // Fill in the code to output the value of dollars and pesos
+
 }
 
 void convertMulti(float dollars, float& euros, float& pesos) {
   // Fill in the code to convert the dollar amount to euros and pesos
+  euros = convertToEuros(dollars);
+  pesos = convertToPesos(dollars);
 }
 
 void convertMulti(float dollars, float& euros, float& pesos, float& yen) {
   // Fill in the code to convert the dollar amount to euros, pesos and yen
+  euros = convertToEuros(dollars);
+  pesos = ____
+  yen = ____
 }
 
 float convertToYen(float dollars) {

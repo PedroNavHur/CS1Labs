@@ -6,16 +6,13 @@ using namespace std;
 void normalizeMoney(float& dollars, int cent = 150);
 
 int main() {
-  int cents;
   float dollars;
 
   cout << setprecision(2) << fixed << showpoint;
 
-  cents = 95;
   cout << "\nWe will now add 95 cents to our dollar total\n";
-  // Fill in the code to call normalizeMoney to add 95 cents
+  normalizeMoney(dollars, 95);
   cout << "Converting cents to dollars resulted in " << dollars << " dollars\n";
-
 
   cout << "\nWe will now add 193 cents to our dollar total\n";
   // Fill in the code to call normalizeMoney to add 193 cents
@@ -24,7 +21,6 @@ int main() {
   cout << "\nWe will now add the default value to our dollar total\n";
   // Fill in the code to call normalizeMoney with the default value
   cout << "Converting cents to dollars resulted in " << dollars << " dollars\n";
-
 }
 
 void normalizeMoney(float& dollars, int cents){

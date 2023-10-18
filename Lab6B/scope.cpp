@@ -7,18 +7,18 @@ const double PI = 3.14;
 const double RATE = 0.25;
 
 void findArea(double radius, double &area);
-void findCircumference(double radius, double &circumference);
+void findCircumference(float radius, double &circumference);
 
 int main()
 {
   cout << fixed << showpoint << setprecision(2);
-  float radius = 12;
+  double radius = 12;
 
   cout << "Main function outer block" << endl;
-  cout << "LIST THE IDENTIFIERS THAT ARE ACTIVE HERE" << endl;
+  cout << "ACTIVE IDENTIFIERS: PI, RATE, radius" << endl;
 
   {
-    float area;
+    double area;
     cout << "Main function first inner block" << endl;
     cout << "LIST THE IDENTIFIERS THAT ARE ACTIVE HERE" << endl;
 
@@ -30,8 +30,8 @@ int main()
   }
 
   {
-    float radius = 10;
-    float circumference;
+    double radius = 10;
+    double circumference;
 
     cout << "Main function second inner block" << endl;
     cout << "LIST THE IDENTIFIERS THAT ARE ACTIVE HERE" << endl;
@@ -47,24 +47,27 @@ int main()
   cout << "LIST THE IDENTIFIERS THAT ARE ACTIVE HERE" << endl;
 }
 
-void findArea(float rad, float &answer)
+void findArea(double rad, double &answer)
 {
   cout << "AREA FUNCTION" << endl
        << endl;
   cout << "LIST THE IDENTIFIERS THAT ARE ACTIVE HERE" << endl;
 
   // Fill in the code that calculates the area and stores it in answer
+  answers = _____
 }
 
-void findCircumference(float length, float&distance){
-    cout << "CIRCUMFERENCE FUNCTION" << endl
+void findCircumference(double length, double &distance)
+{
+  cout << "CIRCUMFERENCE FUNCTION" << endl
        << endl;
   cout << "LIST THE IDENTIFIERS THAT ARE ACTIVE HERE" << endl;
 
   // Fill in the code that finds the circumference and stores it in distance
+  distance = _____
 }
 
-/* ANSWER EXERCISE 1 - 5 HERE: 
+/* ANSWER EXERCISE 1 - 5 HERE:
 
   Exercise 1:
 
