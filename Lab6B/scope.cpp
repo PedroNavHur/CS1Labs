@@ -15,7 +15,7 @@ int main()
   double radius = 12;
 
   cout << "Main function outer block" << endl;
-  cout << "ACTIVE IDENTIFIERS: PI, RATE, radius" << endl;
+  cout << "ACTIVE IDENTIFIERS: PI, RATE, radius, findArea, findCircumference" << endl;
 
   {
     double area;
