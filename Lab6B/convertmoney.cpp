@@ -24,8 +24,9 @@ int main() {
   cout << "to euros and pesos" << endl;
   cin >> dollars;
 
-  // Fill in the code to call convertMulti with parameters dollars, euros and pesos
-  // Fill in the code to output the value of dollars, euros and pesos
+  convertMulti(dollars, euros, pesos);
+  cout << "The value of " << dollars << " dollars is " << euros << " euros and "
+       << pesos << " pesos\n";
 
   cout << "Please input the amount of American Dollars you want converted\n";
   cout << "to euros, pesos and yen" << endl;
