@@ -3,9 +3,10 @@
 
 using namespace std;
 
-void normalizeMoney(float& dollars, int cent = 150);
+void normalizeMoney(float &dollars, int cent = 150);
 
-int main() {
+int main()
+{
   float dollars;
 
   cout << setprecision(2) << fixed << showpoint;
@@ -17,13 +18,14 @@ int main() {
   cout << "\nWe will now add 193 cents to our dollar total\n";
   // Fill in the code to call normalizeMoney to add 193 cents
   cout << "Converting cents to dollars resulted in " << dollars << " dollars\n";
-  
+
   cout << "\nWe will now add the default value to our dollar total\n";
   // Fill in the code to call normalizeMoney with the default value
   cout << "Converting cents to dollars resulted in " << dollars << " dollars\n";
 }
 
-void normalizeMoney(float& dollars, int cents){
+void normalizeMoney(float &dollars, int cents)
+{
   float total = 0;
   // Fill in the definition of sum as a static local variable
   ____ sum = 0.0;
@@ -39,7 +41,7 @@ void normalizeMoney(float& dollars, int cents){
   cout << "The value of our local variable total is $" << total << endl;
 }
 
-/* ANSWER EXERCISE 1 - 2 HERE: 
+/* ANSWER EXERCISE 1 - 2 HERE:
 
   Exercise 1:
 

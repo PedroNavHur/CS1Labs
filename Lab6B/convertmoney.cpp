@@ -38,8 +38,8 @@ int main() {
   cout << "to yen" << endl;
   cin >> dollars;
 
-  // Fill in the code to call convertToYen
-  // Fill in the code to output the value of dollars and yen
+  yen = convertToYen(dollars);
+  cout << "The value of " << dollars << " dollars is " << yen << " yen\n";
 
   cout << "Please input the amount of American Dollars you want converted\n";
   cout << "to euros" << endl;
