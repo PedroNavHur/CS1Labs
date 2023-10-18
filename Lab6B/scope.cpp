@@ -54,7 +54,7 @@ void findArea(double rad, double &answer)
   cout << "LIST THE IDENTIFIERS THAT ARE ACTIVE HERE" << endl;
 
   // Fill in the code that calculates the area and stores it in answer
-  answers = _____
+  answer = _____
 }
 
 void findCircumference(double length, double &distance)

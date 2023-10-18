@@ -69,7 +69,7 @@ void convertMulti(float dollars, float &euros, float &pesos, float &yen)
   // Fill in the code to convert the dollar amount to euros, pesos and yen
   euros = convertToEuros(dollars);
   pesos = ____
-      yen = ____
+  yen = ____
 }
 
 float convertToYen(float dollars)
