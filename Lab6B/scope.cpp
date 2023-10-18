@@ -7,7 +7,7 @@ const double PI = 3.14;
 const double RATE = 0.25;
 
 void findArea(double radius, double &area);
-void findCircumference(float radius, double &circumference);
+void findCircumference(double radius, double &circumference);
 
 int main()
 {
