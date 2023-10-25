@@ -63,7 +63,7 @@ int findHighest(const GradeType array, int size)
 {
   int highest = array[0]; // holds the highest number
 
-  for (int pos = 1; pos < size; pos++)
+  for (int pos = 0; pos < size; pos++)
   {
     // TODO: if the current number is higher than highest, set highest to the current number
   }
