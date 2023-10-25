@@ -30,7 +30,7 @@ int main()
   while (grades[pos] != -99)
   {
     cout << "Please input a grade from 1 to 100, (or -99 to stop)" << endl;
-    // TODO: read the next grade
+    // TODO: read the next grade hint: use pos as the index
   }
 
   numberOfGrades = 0; // TODO: Fix with the actual number of grades read.
@@ -92,5 +92,8 @@ int findLowest(const GradeType array, int size)
      instead of from the keyboard.
 
   4. Run the program with the gradfile.txt
+     hint: The input file needs to be in the same directory as your c++ project files.
+           Replace the cin with an ifstream variable.
+
      Record the output here:
 */
