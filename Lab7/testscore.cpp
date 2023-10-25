@@ -25,15 +25,12 @@ int main()
 
   pos = 0;
   cout << "Please input a grade from 1 to 100, (or -99 to stop)" << endl;
-  cin >> grades[pos];
-
-  while (grades[pos] != -99)
+  while (cin >> grades[++___] && grades[___] != -99) // TODO: Fill in the blank the index
   {
     cout << "Please input a grade from 1 to 100, (or -99 to stop)" << endl;
-    // TODO: read the next grade hint: use pos as the index
   }
 
-  numberOfGrades = 0; // TODO: Fix with the actual number of grades read.
+  numberOfGrades = pos; // TODO: Fix by assigning the correct value to numberOfGrades
 
   avgOfGrades = findAverage(grades, numberOfGrades); // call to the function to find average
 
@@ -56,7 +53,7 @@ float findAverage(const GradeType array, int size)
     sum += array[pos];
   }
 
-  return sum / size;
+  return sum / (size - 1);
 }
 
 int findHighest(const GradeType array, int size)
