@@ -25,7 +25,7 @@ int main()
 
   pos = 0;
   cout << "Please input a grade from 1 to 100, (or -99 to stop)" << endl;
-  while (cin >> grades[++___] && grades[___] != -99) // TODO: Fill in the blank the index
+  while (cin >> grades[++___] && grades[___] != -99) // TODO: Fill in the blanks the index
   {
     cout << "Please input a grade from 1 to 100, (or -99 to stop)" << endl;
   }
@@ -37,10 +37,10 @@ int main()
   cout << endl
        << "The average of all the grades is " << avgOfGrades << endl;
 
-  // TODO: call to the function to find highest grade
+  // TODO: assign highestGrade the return value of the findHigehstGrade function
   cout << "The highest grade is " << highestGrade << endl;
 
-  // TODO: call to the function to find lowest grade
+  // TODO: assign lowestGrade the return value of the findLowestGrade function
   // TODO: print the lowest grade
 }
 
