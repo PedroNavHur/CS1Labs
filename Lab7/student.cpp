@@ -61,7 +61,6 @@ int main() {
     for (size_t count = 0; count < numOfGrades; count++) {
       cout << "Please input a grade" << endl;
       // TODO: read the next grade
-      cin >> grades[count];
     }
 
     average = findGradeAvg(grades, numOfGrades);
