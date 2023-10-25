@@ -60,13 +60,13 @@ int main() {
 
     for (size_t count = 0; count < numOfGrades; count++) {
       cout << "Please input a grade" << endl;
-      // TODO: read the next grade
+      cin >> grades[____]; // TODO: Fill in the blank with the correct index
     }
 
     average = findGradeAvg(grades, numOfGrades);
 
     cout << firstname << " " << lastname << " has an average of " << average;
-    // TODO: print the letter grade
+    // TODO: print the letter grade by calling the findLetterGrade function
   
     cout << "Please input a y if you want to input more students" << endl
          << "any other character will stop the input" << endl;
