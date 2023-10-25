@@ -14,6 +14,7 @@ typedef float PriceType[MAXROWS][MAXCOLS]; // creates a new data type: a two dim
 void getPrices(PriceType, int &, int &);     // gets the prices into the array from the user
 void printPrices(const PriceType, int, int); // prints data as a table
 float findHighestPrice(const PriceType, int, int); // finds the highest price
+float findLowestPrice(const PriceType, int, int); // finds the lowest price
 
 int main()
 {
@@ -25,6 +26,7 @@ int main()
   printPrices(price, rowsUsed, colsUsed); // calls printPrices to display the array
 
   // TODO: call and print the highest price
+  // TODO: call and print the lowest price
   
   return 0;
 }
@@ -54,7 +56,7 @@ void getPrices(PriceType array, int &rowsUsed, int &colsUsed)
     for (int col = 0; col < colsUsed; col++)
     {
       cout << "Please input a price" << endl;
-      // TODO: read the next price hint use array[row][col]
+      cin >> array[____][____]; // TODO: Fill in the blanks with the correct indices
     }
   }
 }
@@ -67,7 +69,7 @@ void printPrices(const PriceType array, int rowsUsed, int colsUsed)
   {
     for (int col = 0; col < colsUsed; col++)
     {
-      // TODO: print the next price hint: use setw(8) and array[row][col]
+      cout << setw(8) << array[____][____]; // TODO: Fill in the blanks with the correct indices 
     }
     cout << endl;
   }
@@ -91,13 +93,23 @@ float findHighestPrice(const PriceType array, int rowsUsed, int colsUsed)
   return highest;
 }
 
+float findLowestPrice(const PriceType array, int rowsUsed, int colsUsed)
+{
+  float lowest = array[0][0];
+
+  // TODO: Find lowest in 2D Array
+
+  return lowest;
+}
+
 /* Exercises:
 
   1. Complete and Fix the Code.
 
   2. Why does getPrices have the parameters passed by reference?
      Why does printPrices have the parameters passed by value?
+     Why can we modify the array without passing it by reference?
 
-  3 - 6. N/A
+  3-6. N/A
 
 */
