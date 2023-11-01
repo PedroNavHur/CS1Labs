@@ -65,6 +65,7 @@ void showArray(const int array[], int size) {
 /* Exercises
   1. Rewrite the sort function that you prefer to use so that it orders integers from largest to smallest
      rather than from smallest to largest.
+     Hint: Change the > to < in the sort function.
   2. Sort with your function the array {7, 2, 3, 8, -1};
       What is the output?
       Answer here:

@@ -35,7 +35,7 @@ int binarySearch(int array[], int numElems, int value) {
     if (array[middle] == value) { // If value is found at mid
       found = true;
       position = middle;
-    } else if (array[middle] < value) // If value is in lower half
+    } else if (array[middle] < value) // If value is in lower half Note: make a change here to change from descending to ascending
       last = middle - 1;
     else
       first = middle + 1; // If value is in upper half
