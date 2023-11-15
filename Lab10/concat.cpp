@@ -23,7 +23,16 @@ int main() {
   cout << string1 << endl;
   cout << string2 << endl;
 
-  strcat(string1, string2);
+  // uncoment the appropriate function depending on your OS
+
+  // On UNIX:
+  // strcat(string1, string2);
+
+  // On Windows:
+  // strcat_s(string1, sizeof str, string2); 
+
+  // strncat_s is a secure version of strncat (strcat is deprecated on windows)
+  // strcat works fine on UNIX
 
   cout << string1 << endl;
 }
