@@ -29,7 +29,7 @@ int main() {
   // strcat(string1, string2);
 
   // On Windows:
-  // strcat_s(string1, sizeof str, string2); 
+  // strcat_s(string1, sizeof string1, string2); 
 
   // strncat_s is a secure version of strncat (strcat is deprecated on windows)
   // strcat works fine on UNIX
