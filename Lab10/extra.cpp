@@ -10,4 +10,7 @@
 
     Enter a string: Hello hello hello
     Hello hello hello contains 2 unique consonants.
+
+    Enter a string: Hi
+    Hi contains 1 unique consonant.
 */  
