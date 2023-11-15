@@ -9,5 +9,5 @@
     Hello World contains 7 unique consonants.
 
     Enter a string: Hello hello hello
-    Hello hello hello contains 4 unique consonants.
+    Hello hello hello contains 2 unique consonants.
 */  
