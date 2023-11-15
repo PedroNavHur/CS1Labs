@@ -6,7 +6,7 @@
 
   Sample Run:
     Enter a string: Hello World
-    Hello World contains 7 unique consonants.
+    Hello World contains 6 unique consonants.
 
     Enter a string: Hello hello hello
     Hello hello hello contains 2 unique consonants.
