@@ -22,8 +22,10 @@ bool testPass(char []);
 int countDigits(char []);
 int countLetters(char []);
 
+int PASSWORD_SIZE = 10;
+
 int main() {
-  char password[11];
+  char password[PASSWORD_SIZE + 1];
   bool valid;
 
   cout << "Enter a 10 character password: ";
@@ -58,7 +60,7 @@ bool testPass(char password[]) {
 int countDigits(char password[]) {
   int count = 0;
 
-  for (int i = 0; i < 10; i++) {
+  for (int i = 0; i < PASSWORD_SIZE; i++) {
     if (isdigit(password[i])) {
       count++;
     }
@@ -70,7 +72,7 @@ int countDigits(char password[]) {
 int countLetters(char password[]) {
   int count = 0;
 
-  for (int i = 0; i < 10; i++) {
+  for (int i = 0; i < PASSWORD_SIZE; i++) {
     if (isalpha(password[i])) {
       count++;
     }
