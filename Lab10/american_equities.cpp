@@ -22,7 +22,7 @@ bool testPass(char []);
 int countDigits(char []);
 int countLetters(char []);
 
-int PASSWORD_SIZE = 10;
+const int PASSWORD_SIZE = 10;
 
 int main() {
   char password[PASSWORD_SIZE + 1];
