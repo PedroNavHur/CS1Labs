@@ -15,26 +15,16 @@ const int MAXNAME = 20;
 
 int main() {
   ifstream inData;
-  char filename[MAXNAME + 1];
   char name[MAXNAME + 1];
   int grade;
 
-  cout << "Enter the name of the input file: ";
-  cin >> filename;
-
-  inData.open(filename);
-
-  if (!inData) {
-    cout << "Error opening " << filename << endl;
-    return 1;
-  }
+  inData.open("grades.txt");
 
   inData.get(name, MAXNAME + 1);
   inData >> grade;
   inData.ignore(80, '\n');
 
   while (inData) {
-
     // TODO: Fill in code to print the name and grade.
 
     // TODO: Fill in code to read the next name and grade from the file
