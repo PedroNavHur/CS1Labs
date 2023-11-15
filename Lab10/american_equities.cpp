@@ -23,11 +23,11 @@ int countDigits(char []);
 int countLetters(char []);
 
 int main() {
-  char password[20];
+  char password[11];
   bool valid;
 
-  cout << "Enter a password: ";
-  cin >> password;
+  cout << "Enter a 10 character password: ";
+  cin.getline(password, 10);
 
   valid = testPass(password);
 
@@ -58,7 +58,7 @@ bool testPass(char password[]) {
 int countDigits(char password[]) {
   int count = 0;
 
-  for (int i = 0; i < 20; i++) {
+  for (int i = 0; i < 10; i++) {
     if (isdigit(password[i])) {
       count++;
     }
@@ -70,7 +70,7 @@ int countDigits(char password[]) {
 int countLetters(char password[]) {
   int count = 0;
 
-  for (int i = 0; i < 20; i++) {
+  for (int i = 0; i < 10; i++) {
     if (isalpha(password[i])) {
       count++;
     }
