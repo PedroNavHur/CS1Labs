@@ -34,7 +34,7 @@ int main() {
     average = total / 4.0;
     cout << "Average weekly sales are $" << average << endl;
 
-    cout << "Do you want to average another week? (Y/N) ";
+    cout << "Do you want to find the average of another month? (Y/N) ";
     cin >> choice;
 
     while (toupper(choice) != 'Y' && toupper(choice) != 'N') {
