@@ -27,7 +27,7 @@ int main() {
   bool valid;
 
   cout << "Enter a 10 character password: ";
-  cin.getline(password, 10);
+  cin.getline(password, sizeof(password));
 
   valid = testPass(password);
 
