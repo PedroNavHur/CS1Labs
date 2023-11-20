@@ -1,7 +1,7 @@
 // Optional extra credit exercise (5pts)
 
 /* 
-  Write a program that determines how many unique consonants are in a c-string (string of characters) entered by the user.
+  Write a program that determines how many unique consonants are in a c-string (array of characters) entered by the user.
   Output the entered string and the number of unique consonants in the string.
   * You cannot import any additional libraries.
 
