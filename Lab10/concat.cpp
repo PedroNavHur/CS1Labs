@@ -6,7 +6,7 @@
      Record the output here:
 
   2. Modify the program so string1 contains 20 characters instead of 25.
-      What is the output?
+      What is the output? What does your IDE say?
       Record the output here:
 
 */
