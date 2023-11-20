@@ -3,6 +3,7 @@
 /* 
   Write a program that determines how many unique consonants are in a c-string (string of characters) entered by the user.
   Output the entered string and the number of unique consonants in the string.
+  * You cannot import any additional libraries.
 
   Sample Run:
     Enter a string: Hello World
@@ -14,3 +15,8 @@
     Enter a string: Hi
     Hi contains 1 unique consonant.
 */  
+
+#include <iostream>
+#include <cctype>
+
+using namespace std;
