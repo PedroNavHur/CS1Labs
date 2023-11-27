@@ -30,8 +30,6 @@ struct Rectangle {
   float perimeter;
 };
 
-// TODO: Fill in code to declare a structure named results that has two members:
-
 int main() {
 
   Rectangle box; // box is a Rectangle structure
