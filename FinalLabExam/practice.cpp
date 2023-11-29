@@ -39,9 +39,9 @@ int biggestSquare(const Nums& nums) {
 // A pair is good if their sum is even
 // Return the *unique* good pairs as a NumList (a 2d vector)
 // [1 5 8 9] -> [[1 5] [1 9] [5 9]]
+// Hint: copy the vector and sort it
 // Hint: Use nested for loops
 // Hint: Use a vector to store the good pairs
-// 
 NumsList findGoodPairs(const Nums& nums) {
   // WRITE YOUR CODE HERE
   NumsList result (0, Nums(0)); // remplace with your code
