@@ -1,8 +1,8 @@
-// CS1 Practice Lab Exam YOU CANNOT INCLUDE EXTRA LIBRARIES
+// CS1 Practice Lab Exam
 
-// You are not allowed to use any libraries other than the ones included below
+// Feel free to include any libraries as long as they are part of the standard library
 // You CAN use the min, max, sort, find, binary_search, and any other function from the <algorithm> library
-// However, the problems can be solved without using any of these functions
+// However, note the problems can be solved without using any of these functions
 
 #include <iostream>
 #include <fstream>
@@ -10,15 +10,13 @@
 #include <vector>
 #include <algorithm>
 #include <iomanip>
+#include <set>
 
 using namespace std;
 
 using Nums = vector<int>;
 using NumsList = vector<Nums>;
 using Data = NumsList;
-
-// Again, you are not allowed to use any other libraries
-// Some libraries trivialize the problems and defeat the purpose of these exercises
 
 
 /* WRITE CODE BELOW HERE */
@@ -31,9 +29,10 @@ const string NAME = "Our AI Overlords"; // REPLACE WITH YOUR NAME
 // [1, 2, 3, 4, 5, 6, 7, 8, 9] -> 81
 // Hint: Use a for loop
 // Hint: Use a variable to keep track of the biggest square
-int biggestSquare(Nums nums) {
-  // WRITE CODE HERE
-  return 0; // You can remove this line
+int biggestSquare(const Nums& nums) {
+  // WRITE YOUR CODE HERE
+  int biggest = 0; // remplace with your code
+  return biggest;
 }
 
 // Find Good pairs.
@@ -43,10 +42,10 @@ int biggestSquare(Nums nums) {
 // Hint: Use nested for loops
 // Hint: Use a vector to store the good pairs
 // 
-NumsList findGoodPairs(Nums nums) {
-  // WRITE CODE HERE 
-  NumsList result(1, nums); // You can remove this line
-  return result; // You can remove this line
+NumsList findGoodPairs(const Nums& nums) {
+  // WRITE YOUR CODE HERE
+  NumsList result (0, Nums(0)); // remplace with your code
+  return result;
 }
 
 
@@ -56,7 +55,7 @@ NumsList findGoodPairs(Nums nums) {
 // Other Function Prototypes, do not change these
 Data readData(ifstream& fin);
 template<typename T> ostream& operator<<(ostream& out, vector<T> v);
-template<typename T> void testFunction(ifstream &fin, ofstream &fout, T (*func)(Nums));
+template<typename T> void testFunction(ifstream &fin, ofstream &fout, T (*func)(const Nums&));
 
 // Main function, do not change this
 int main() {
@@ -104,7 +103,7 @@ Data readData(ifstream& fin) {
 
 // Test a function with a file
 template<typename T>
-void testFunction(ifstream &fin, ofstream &fout, T (*func)(Nums)) {
+void testFunction(ifstream &fin, ofstream &fout, T (*func)(const Nums&)) {
   Data data = readData(fin);
   for (Nums nums: data) {
     fout << nums << " -> " << func(nums) << endl;
