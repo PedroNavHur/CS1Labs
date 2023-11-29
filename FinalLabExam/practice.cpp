@@ -31,7 +31,7 @@ const string NAME = "Our AI Overlords"; // REPLACE WITH YOUR NAME
 // Hint: Use a variable to keep track of the biggest square
 int biggestSquare(const Nums& nums) {
   // WRITE YOUR CODE HERE
-  int biggest = 0; // remplace with your code
+  int biggest = 0; // replace with your code
   return biggest;
 }
 
@@ -44,7 +44,7 @@ int biggestSquare(const Nums& nums) {
 // Hint: Use a vector to store the good pairs
 NumsList findGoodPairs(const Nums& nums) {
   // WRITE YOUR CODE HERE
-  NumsList result (0, Nums(0)); // remplace with your code
+  NumsList result (0, Nums(0)); // replace with your code
   return result;
 }
 
