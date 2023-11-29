@@ -24,7 +24,7 @@ using Data = NumsList;
 const string NAME = "Our AI Overlords"; // REPLACE WITH YOUR NAME
 
 
-// Find biggest square in an array of integers.
+// Find the biggest square in an array of integers.
 // Return the biggest square
 // [1, 2, 3, 4, 5, 6, 7, 8, 9] -> 81
 // Hint: Use a for loop
