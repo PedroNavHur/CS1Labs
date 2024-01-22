@@ -10,9 +10,9 @@
       - Hint: output the number of miles to the screen
   2. Compile and run your program.
   3. Test your program with the following values:
-      - 1 kilometer should be 0.621371 miles
-      - 2 kilometers should be 1.24274 miles
-      - 5 kilometers should be 3.10686 miles
+      - 1 kilometer should be 0.621504 miles
+      - 2 kilometers should be 1.243008 miles
+      - 5 kilometers should be 3.107520 miles
      If your program does not work, fix it.
 */
 
