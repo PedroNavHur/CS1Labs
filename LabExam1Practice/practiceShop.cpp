@@ -33,4 +33,18 @@
       > 125
       The total cost of the shirts is $750.00
       The total cost of the shirts including tax is $798.75
+
+   Hints:
+      cost per shirt = $12.00
+      tax rate = 0.065
+
+      total cost of shirts = number of shirts * cost per shirt
+
+      20% discount = total cost of shirts * 0.20
+      30% discount = total cost of shirts * 0.30
+      40% discount = total cost of shirts * 0.40
+      50% discount = total cost of shirts * 0.50
+
+      total cost of shirts with discount = total cost of shirts - discount
+      total cost of shirts including tax = total cost of shirts with discount + (total cost of shirts with discount * tax rate)
   */
