@@ -6,7 +6,13 @@
 
      Enter your answer here:
 
-  2. Rewrite the logical expression using the NOT operator. Keep the same behavior.
+  2. Rewrite the logical expression using the opposite operators. Keep the same behavior.
+
+     Hint: Demorgans Law = !(A && B) = !A || !B
+                           !(A || B) = !A && !B
+
+     Why does this work? See:
+     I don't like apples and I don't like oranges = I don't like apples or oranges
 
 */
 
