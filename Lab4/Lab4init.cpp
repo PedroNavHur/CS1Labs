@@ -13,7 +13,7 @@
   Expeted Output:
 
       Enter an integer: 5
-      The numbers are not the same.
+      The numbers are the same.
 
       Enter an integer: 6
       The numbers are not the same.
