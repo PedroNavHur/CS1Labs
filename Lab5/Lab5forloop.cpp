@@ -33,7 +33,7 @@ int main() {
   cin >> N;
 
   // Validate the input
-  while (N <= 0) {
+  while (/*TODO: write the condition to validate the number as a positive integer*/) {
     cout << "The number must be positive. Please re-enter: ";
     cin >> N;
   }

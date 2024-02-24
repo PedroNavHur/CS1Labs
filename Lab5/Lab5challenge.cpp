@@ -36,4 +36,3 @@
   - You'll need to read the input file and count the number of times each beverage is chosen.
   - You'll need to print the results to the output file.
 */
-
