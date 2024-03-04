@@ -12,8 +12,8 @@
 using namespace std; // Required for not having to use std::
 
 // Function prototypes
-void converMulti(float dollars, float& euros, float& pesos, float& yen); // void function with parameters
-void covertMulti(float dollars, float& euros, float& pesos); // void function with parameters
+void convertMulti(float dollars, float& euros, float& pesos, float& yen); // void function with parameters
+void convertMulti(float dollars, float& euros, float& pesos); // void function with parameters
 void convertToYen(float dollars, float& yen); // void function with parameters
 void convertToPesos(float dollars, float& pesos); // void function with parameters
 void convertToEuros(float dollars, float& euros); // void function with parameters
