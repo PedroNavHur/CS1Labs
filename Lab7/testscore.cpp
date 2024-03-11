@@ -1,3 +1,21 @@
+/* Exercises:
+
+  1. Modify and fix the program..
+
+  2. Run the program with the following data:
+     90 45 73 62 -99
+     Record the output here:
+
+  3. Modify the program so it reads from the file gradfile.txt
+     instead of from the keyboard.
+
+  4. Run the program with the gradfile.txt
+     hint: The input file needs to be in the same directory as your c++ project files.
+           Replace the cin with an ifstream variable.
+
+     Record the output here:
+*/
+
 // This program will read in a group of trst scores (positive integers from 1 to 100)
 // from the keyboard and then calculate and output the average score
 // as well as the highest and lowest score. There will be a maximum of 100 scores.
@@ -27,7 +45,8 @@ int main()
   cout << "Please input a grade from 1 to 100, (or -99 to stop)" << endl;
   cin >> grades[pos];
 
-  while (grades[____] != -99) { // TODO: Fill in the blanks with the correct index
+  while (grades[____] != -99)
+  { // TODO: Fill in the blanks with the correct index
     pos++;
     cout << "Please input a grade from 1 to 100, (or -99 to stop)" << endl;
     cin >> grades[____]; // TODO: Fill in the blanks with the correct index
@@ -47,53 +66,30 @@ int main()
   // TODO: print the lowest grade
 }
 
-float findAverage(const GradeType array, int size)
-{
+float findAverage(const GradeType array, int size) {
   float sum = 0; // holds the sum of all the numbers
 
-  for (int pos = 0; pos < size; pos++)
-  {
+  for (int pos = 0; pos < size; pos++) {
     sum += array[pos];
   }
 
   return sum / size;
 }
 
-int findHighest(const GradeType array, int size)
-{
+int findHighest(const GradeType array, int size) {
   int highest = array[0]; // holds the highest number
 
-  for (int pos = 0; pos < size; pos++)
-  {
+  for (int pos = 0; pos < size; pos++) {
     // TODO: if the current number is higher than highest, set highest to the current number
   }
 
   return highest;
 }
 
-int findLowest(const GradeType array, int size)
-{
+int findLowest(const GradeType array, int size) {
   int lowest = array[0]; // holds the lowest number
 
   // TODO: write the loop to find the lowest number
 
   return lowest;
 }
-
-/* Exercises:
-
-  1. Modify and fix the program..
-
-  2. Run the program with the following data:
-     90 45 73 62 -99
-     Record the output here:
-
-  3. Modify the program so it reads from the file gradfile.txt
-     instead of from the keyboard.
-
-  4. Run the program with the gradfile.txt
-     hint: The input file needs to be in the same directory as your c++ project files.
-           Replace the cin with an ifstream variable.
-
-     Record the output here:
-*/

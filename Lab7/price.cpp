@@ -1,3 +1,15 @@
+/* Exercises:
+
+  1. Complete and Fix the Code.
+
+  2. Why does getPrices have the parameters passed by reference?
+
+     Why does printPrices have the parameters passed by value?
+     
+     Why can we modify the array without passing it by reference?
+
+*/
+
 // This program will read in prices and store them into a two dimensional array.
 // It will print those prices in a table form.
 
@@ -102,14 +114,3 @@ float findLowestPrice(const PriceType array, int rowsUsed, int colsUsed)
   return lowest;
 }
 
-/* Exercises:
-
-  1. Complete and Fix the Code.
-
-  2. Why does getPrices have the parameters passed by reference?
-     Why does printPrices have the parameters passed by value?
-     Why can we modify the array without passing it by reference?
-
-  3-6. N/A
-
-*/

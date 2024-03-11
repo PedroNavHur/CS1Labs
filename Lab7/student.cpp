@@ -1,3 +1,22 @@
+/* Exercises:
+
+  1. Complete and Fix the Program.
+     Then run it with the following data:
+      Mary Brown 100 90 90
+      George Smith 90 30 50
+      Dale Barnes 80 78 82
+      Sally Dolittle 70 65 80
+      Conrad Bailer 60 58 71
+
+    You should get the following results:
+      Mary Brown has an average of 93.33 which gives the letter grade of A
+      George Smith has an average of 56.67 which gives the letter grade of F
+      Dale Barnes has an average of 80.00 which gives the letter grade of B
+      Sally Dolittle has an average of 71.67 which gives the letter grade of C
+      Conrad Bailer has an average of 63.00 which gives the letter grade of D
+
+*/
+
 // This program will input an undetermined number of student names
 // and a number of grades for each student. The number of grades is
 // given by the user. The grades are stored in an array.
@@ -89,21 +108,3 @@ char findLetterGrade(float average) {
   // TODO: return the letter grade
 }
 
-/* Exercises:
-
-  1. Complete and Fix the Program.
-     Then run it with the following data:
-      Mary Brown 100 90 90
-      George Smith 90 30 50
-      Dale Barnes 80 78 82
-      Sally Dolittle 70 65 80
-      Conrad Bailer 60 58 71
-
-    You should get the following results:
-      Mary Brown has an average of 93.33 which gives the letter grade of A
-      George Smith has an average of 56.67 which gives the letter grade of F
-      Dale Barnes has an average of 80.00 which gives the letter grade of B
-      Sally Dolittle has an average of 71.67 which gives the letter grade of C
-      Conrad Bailer has an average of 63.00 which gives the letter grade of D
-
-*/
