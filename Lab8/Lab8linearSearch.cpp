@@ -1,3 +1,31 @@
+
+/* The following code shows you how to do a linear search
+
+  Exercise 1:
+    Rewrite this program so that the user can continue to input values that will
+    be searched for, until a sentinel is entered to end the program.
+
+    Sample Run:
+    Enter a character to search for: x
+    The character x was not found in the list.
+    Enter another character to search for: a
+    The character a is in position number 1 of the list.
+    Enter another character to search for: o
+    The character o is in position number 5 of the list.
+
+  Exercise 2:
+    Notice there's two 'o's in "harpoon". Which 'o' in "harpoon" does the linear search return?
+    Your answer here:
+    
+    Why?
+    Your answer here:
+
+    Change the searchList algorithm to return the other 'o'.
+    Hint: 
+      The while loop goes from 0 to numElements - 1, change it to go from numElements - 1 to 0.
+      And instead of incrementing the index, decrement it.
+*/
+
 // This program performs a linear search on a character array.
 
 #include <iostream>
@@ -11,7 +39,7 @@ int main() {
   int found;
   char ch;
 
-  cout << "Enter a character to search for:" << endl;
+  cout << "Enter a character to search for: ";
   cin >> ch;
 
   found = searchList(word, SIZE, ch);
@@ -28,6 +56,7 @@ int searchList(char list[], int numElems, char value) {
   int position = -1; // To record position of search value
   bool found = false; // Flag to indicate if the value was found
 
+// Keep looking while we are still within bounds and we haven't found it
   while (index < numElems && !found) {
     if (list[index] == value) { // If the value is found
       found = true; // Set the flag
@@ -37,15 +66,3 @@ int searchList(char list[], int numElems, char value) {
   }
   return position; // Return the position, or -1
 }
-
-/* Exercises:
-  1. Rewrite the program so that it searches an array of integers rather than characters.
-     Use the array nums[8] = { 3, 6, -19, 5, 5, 0, -2, 99}
-     What happens if you search for 5? Which 5 is found?
-     Answer here:
-
-  2. Re-write the program so that the user can continue to input values
-     that will be searched for until a sentinel value is entered to end the program.
-     Should a pre or post test lopp be used?
-     Answer here:
-*/

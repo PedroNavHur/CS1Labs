@@ -1,4 +1,19 @@
-// This program demonstrates a Binary Search
+/* Exercises:
+
+  The following code shows you an example of the binary search algorithm.
+  Note binary searches needs the numbers to be sorted in order to work, but it's much faster than linear search.
+
+  1. The variable middle is defined as an ineger.
+     Is the operation (first + last) / 2 guaranteed to be an integer?
+     Answer here:
+
+     How is middle value determined if the array has an odd number of elements?
+     Answer here:
+
+     How is middle value determined if the array has an even number of elements?
+     Answer here:
+
+*/
 
 #include <iostream>
 using namespace std;
@@ -42,24 +57,3 @@ int binarySearch(int array[], int numElems, int value) {
   }
   return position;
 }
-
-/* Exercises:
-  1. The variable middle is defined as an ineger.
-     Is the operation (first + last) / 2 guaranteed to be an integer?
-     Answer here:
-     How is middle value determined if the array has an odd number of elements?
-     Answer here:
-     How is middle value determined if the array has an even number of elements?
-     Answer here:
-
-  2. Search for 19 and then 12.
-     Record the outputs here:
-      19:
-      12:
-     Which 19 and which 12 did search find?
-     Answer here:
-
-  3. Modify the program to search an array that is in aascending order.
-     Make sure to alter the array initialization.
-
-*/
