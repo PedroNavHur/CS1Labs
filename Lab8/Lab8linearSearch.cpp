@@ -24,6 +24,8 @@
     Hint: 
       The while loop goes from (0) to (numElements - 1), change it to go from (numElements - 1) to (0).
       And instead of incrementing the index, decrement it.
+      
+      Aka: (0 < numElements) should become (numElements - 1 >= 0)
 */
 
 // This program performs a linear search on a character array.
