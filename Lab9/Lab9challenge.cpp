@@ -28,7 +28,7 @@
       500
       500
     Lowest: 100
-    Highest: 500
+    Highest: 500githu
     Average: 320
 
   Note: You are required to use a dynamically allocated array.
