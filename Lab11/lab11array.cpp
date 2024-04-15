@@ -2,9 +2,6 @@
 
   1. Fill in the missing code in the following program so it works as described in the comments.
 
-  2. Why do we need (index + 1) in the cout statement in the for loop?
-     Answer here:
-
 */
 
 #include <iostream>
